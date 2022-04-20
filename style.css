@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.logo img{
+    width: 11rem;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    font-style: italic;
+}
+.navbar ul li{
+    font-size: 0.7rem;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+.navbar ul li a:hover{
+    color: #bfc500;
+}select:hover{
+    color: #bfc500;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 4.8rem;
+    flex-wrap: wrap;
+    
+    
+}
+select{
+    font-size: 0.7rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+.fa-brands{
+    font-size: 1.099rem;
+    padding: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sec img{
+   background: no-repeat center cover;
+   width: 90%;
+}
+.sec{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    
+}
+#box1 p{
+    padding-top: 10px;
+    font-size: 22px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 25px;
+}
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px;
+    
+}#box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    
+}
+#box2 div{
+    display: flex;
+    margin-right: 30px;
+    
+}
+#box2 div img{
+    width: 150px;
+    padding: 8px;
+    
+    
+}
+.para{
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    
+}
+.para h1{
+    font-size: 35px;
+    font-weight: 400;
+    color: #bfc500;
+}.para h2{
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+.para h6{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.para p{
+    font-size: 15px;
+    padding-top: 90px;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #bfc500;
+    width: 85%;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #bfc500;
+    height: 75px;
+    width: 295px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.small button:hover{
+    background-color: white;
+    color: black;
+}
+.small h5{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 20px;
+}.small h1{
+    font-size: 25px;
+    padding: 5px;
+    
+}
