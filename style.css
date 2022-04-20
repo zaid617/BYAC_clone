@@ -33,6 +33,13 @@ body{
     color: white;
     padding: 3px;
 }
+hr.line {
+    width: 1092px;
+    height: 0px;
+    border-top: 1px solid #3b3b3b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .navbar ul li a:hover{
     color: #bfc500;
 }select:hover{
