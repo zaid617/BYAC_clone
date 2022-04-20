@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: black;
+    position: relative;
 }
 .logo img{
     width: 11rem;
@@ -33,12 +34,18 @@ body{
     color: white;
     padding: 3px;
 }
+.linebox{
+    color: #3b3b3b;
+}
 hr.line {
-    width: 1092px;
+    width: 85%;
     height: 0px;
-    border-top: 1px solid #3b3b3b;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: 1px solid #504e4e;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #3b3b3b;
+
 }
 .navbar ul li a:hover{
     color: #bfc500;
@@ -92,28 +99,35 @@ select{
 .box{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
 }
 #box1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 110px;
+    padding: 85px;
     
-}#box2{
+}
+#box1 h1{
+    margin-bottom: 9px;
+    font-style: italic;
+}
+.box2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px;
     
 }
-#box2 div{
+.box2 div{
     display: flex;
     margin-right: 30px;
     
 }
-#box2 div img{
+.box2 div img{
     width: 150px;
     padding: 8px;
     
@@ -121,36 +135,55 @@ select{
 }
 .para{
     padding-left: 120px;
-    padding-right: 20px;
+    padding-right: 70px;
     padding-bottom: 80px;
+    padding-top: 50px;
     
 }
+.para a {
+    color:#bfc500;
+}
+.para img{
+    width: 250px;
+    margin-right: 30px;
+}
 .para h1{
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 36px;
+    font-weight: 00;
     color: #bfc500;
+    font-style: italic;
+
 }.para h2{
-    font-size: 25px;
+    font-size: 29px;
     margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 900;
+
     
+}
+.para h2 em{
+    color: #bfc500;
 }
 .para h6{
     margin-top: 20px;
     font-weight: 300;
+    font-size: 21px;
 }
 .para p{
     font-size: 15px;
     padding-top: 90px;
+    color: #7d7c7c;
 }
 .sec3{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     background-color: #bfc500;
     width: 85%;
@@ -179,13 +212,145 @@ select{
 .small button:hover{
     background-color: white;
     color: black;
+}   .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #bfc500;
+    height: 56px;
+    width: 295px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 3px;
+
+}
+ .button:hover{
+    background-color: white;
+    color: black;
 }
 .small h5{
     font-size: 16px;
     font-weight: 200;
     padding: 20px;
 }.small h1{
-    font-size: 25px;
+    font-size: 30px;
     padding: 5px;
     
+}
+.linebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.padding{
+    padding-right: 400px;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 200px;
+}
+.imgs img{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+}
+.imgs p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.doubles{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.itembox{
+    display: flex;
+    padding: 10px;
+   
+    
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 22px;
+}
+.percents{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.percent{
+    color: #bfc500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items img{
+    width: 350px;
+    background-color: #bfc500;
+  
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    margin-bottom: 130px;
+}
+.link h3{
+    color: white;
+}
+.link a{
+    color: #bfc500;
+    text-decoration: none;
+}
+.bored{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bored img{
+    width: 200px;
+    margin-top: -140px;
+}
+.box input{
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: #3b3b3b;
+    padding-left: 10px;
+    
+    
+}
+input::placeholder{
+    color: white;
+}
+#btn{
+    height: 39px;
+    width: 50px;
+    
+    background-color:#7d7c7c; 
+    color: white;
 }
