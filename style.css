@@ -33,6 +33,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 3px;
+    transition: 0.6s;
 }
 .linebox{
     color: #3b3b3b;
