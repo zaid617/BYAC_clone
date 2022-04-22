@@ -61,6 +61,7 @@ hr.line {
     font-size: 4.8rem;
     flex-wrap: wrap;
     cursor: pointer;
+    transition: 0.6s;
     
     
 }
