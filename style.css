@@ -33,7 +33,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 3px;
-    transition: 0.6s;
+    
 }
 .linebox{
     color: #3b3b3b;
@@ -50,8 +50,10 @@ hr.line {
 }
 .navbar ul li a:hover{
     color: #bfc500;
+    transition: 0.6s;
 }select:hover{
     color: #bfc500;
+    transition: 0.6s;
 }
 .icons{
     display: flex;
@@ -62,7 +64,7 @@ hr.line {
     font-size: 4.8rem;
     flex-wrap: wrap;
     cursor: pointer;
-    transition: 0.6s;
+   
     
     
 }
@@ -83,6 +85,7 @@ select{
 }
 .fa-brands:hover{
     color: #bfc500;
+     transition: 0.6s;
 }
 .sec img{
    background: no-repeat center cover;
