@@ -8,12 +8,14 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
     position: relative;
+    
 }
 .logo img{
     width: 11rem;
+    margin: 10px;
 }
 .navbar ul{
     display: flex;
@@ -21,13 +23,14 @@ body{
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-    margin-left: 480px;
+    margin-left: 200px;
     font-style: italic;
 }
 .navbar ul li{
     font-size: 0.6rem;
     padding: 5px;
     cursor: pointer;
+    margin-left: 10px;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -311,13 +314,20 @@ select{
     align-items: center;
     justify-content: center;
 }
-
-.items img{
-    width: 350px;
+.pic{
     background-color: #bfc500;
-     position: relative;
-    top: 20px;
-    left: -40px;
+    position: relative;
+    width: 250px;
+    height: 290px;
+    
+}
+.pic img{
+    width: 330px;
+    position: relative;
+    top: px;
+    left: -60px;
+   
+    
   
 }
 .link{

@@ -1,0 +1,82 @@
+.navbar{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.navbar ul{
+    margin-left: 0px;
+}
+.fa-brands {
+    padding: 1px;
+}
+.logo img{
+    margin: 0px;
+    width: 8rem;
+
+}
+.box{
+    flex-direction: column;
+}
+
+.box2 div img{
+    width: 200px;
+}
+.para p {
+    font-size: 23px;
+    margin-top: 10px;
+}
+.sec3{
+    justify-content: right;
+}
+.para h2 {
+    font-size: 34px;
+    text-align: center;
+}
+.para img{
+    width: 330px;
+}
+.padding{
+    padding: 0px;
+}
+.img {
+    flex-direction: row;
+}
+.toilet img{
+    width: 175px;
+}
+.para h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.para h6{
+    text-align: justify;
+    width: 500px;
+}
+.imgs img{
+    width: 130px;
+}
+.box1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;padding: 0px;
+
+}
+.box1 p {
+    width: 400px;
+}
+.pic img{
+    width: 270px;
+}
+.pic{
+    width: 219px;
+    height: 278px;
+}
+#text{
+    margin-top: 10px;
+}
+.last{
+    font-size: 13px;
+}
+.bo{
+    flex-direction: column;
+}
