@@ -315,6 +315,9 @@ select{
 .items img{
     width: 350px;
     background-color: #bfc500;
+     position: relative;
+    top: 20px;
+    left: -40px;
   
 }
 .link{
