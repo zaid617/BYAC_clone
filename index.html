@@ -14,11 +14,14 @@
     <title>BAYC</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar" >
+        <div id="burger" onclick="hide()">
+            <i class="fa-solid fa-align-justify"></i>
+        </div>
         <div class="logo">
             <img src="https://ik.imagekit.io/bayc/assets/bayc-logo-z.png" alt="BAYC">
         </div>
-        <ul>
+        <ul >
             <li><a href="">BUY AN APE</a></li>
             <li><a href="">ROADMAP</a></li>
             <li><a href="">TEAM</a></li>
@@ -30,7 +33,7 @@
                 <option value=""><a href=""> MEMBERS</a> </option>
             </select></li>
         </ul>
-        <div class="icons">
+        <div class="icons" ">
             <i class="fa-brands fa-facebook-square"></i>
             <i class="fa-brands fa-youtube-square"></i>
             <i class="fa-brands fa-discord"></i>
@@ -206,6 +209,28 @@
 </div>
 </div>
 <div class="footer"></div>
-  
+  <script>
+      function hide() {
+            let icons = document.getElementById('icons')
+        let burger = document.getElementById('burger')
+        if (icons.style.display!='none') {
+            icons.style.display='none';}
+        else
+            {
+                icons.style.display='block';
+            }
+        
+        } function hide1() {
+            let navbar = document.getElementById('navbar')
+        let burger1 = document.getElementById('burger')
+        if (navbar.style.display!='none') {
+            navbar.style.display='none';}
+        else
+            {
+                unorder.style.display='block';
+            }
+        
+        }
+  </script>
 </body>
 </html>

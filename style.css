@@ -42,7 +42,7 @@ body{
     color: #3b3b3b;
 }
 hr.line {
-    width: 85%;
+    width: 70%;
     height: 0px;
     border: 1px solid #504e4e;
     align-items: center;
@@ -394,4 +394,18 @@ input::placeholder{
 .footer{
 color: #bfc500;
 height: 10px;
+}
+#burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    color: white;
+}
+.fa-align-justify{
+    font-size: 28px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
 }
