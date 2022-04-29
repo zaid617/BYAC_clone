@@ -10,14 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" media="screen and (max-width:1049px)" href="./laptop.css">
     <link rel="stylesheet" media="screen and (max-width:713px)" href="./tablet.css">
-    <link rel="stylesheet" media="screen and (max-width:465px)" href="./mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:552px)" href="./mobile.css">
     <title>BAYC</title>
 </head>
 <body>
+    <div id="burger" >
+        
+        <i id="btn" onclick="hide()" class="fa-solid fa-align-justify"></i>
+    </div>
     <nav class="navbar" id="navbar" >
-        <div id="burger" onclick="hide()">
-            <i class="fa-solid fa-align-justify"></i>
-        </div>
+       
         <div class="logo">
             <img src="https://ik.imagekit.io/bayc/assets/bayc-logo-z.png" alt="BAYC">
         </div>
@@ -33,7 +35,7 @@
                 <option value=""><a href=""> MEMBERS</a> </option>
             </select></li>
         </ul>
-        <div class="icons" ">
+        <div class="icons" >
             <i class="fa-brands fa-facebook-square"></i>
             <i class="fa-brands fa-youtube-square"></i>
             <i class="fa-brands fa-discord"></i>
@@ -213,24 +215,12 @@
       function hide() {
             let icons = document.getElementById('icons')
         let burger = document.getElementById('burger')
-        if (icons.style.display!='none') {
-            icons.style.display='none';}
-        else
-            {
-                icons.style.display='block';
-            }
-        
-        } function hide1() {
-            let navbar = document.getElementById('navbar')
-        let burger1 = document.getElementById('burger')
         if (navbar.style.display!='none') {
             navbar.style.display='none';}
         else
             {
-                unorder.style.display='block';
-            }
-        
-        }
+                navbar.style.display='flex';
+            }}
   </script>
 </body>
 </html>

@@ -398,14 +398,13 @@ height: 10px;
 #burger{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     visibility: hidden;
     color: white;
+    margin: 10px;
 }
-.fa-align-justify{
-    font-size: 28px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+
+#btn{
+    background-color: black;
     
 }
